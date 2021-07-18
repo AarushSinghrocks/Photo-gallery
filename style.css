@@ -1,0 +1,34 @@
+body {
+    background-color: chartreuse;
+}
+.menu_1 {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    margin-top: 0px;
+    z-index: 10;
+}
+.links {
+    color: darkorange;
+    padding-left: 35px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+
+.links:hover {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#flower {
+    height: 90%;
+    width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+}
